@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
         This is my SecondModule.It's awesome!
                    DESC
 
-  s.homepage     = "http://main/SecondModule"
+  s.homepage     = "https://github.com/zzd1991/SecondModule"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "8.0"
+    s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -80,7 +80,8 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "local" }
+# s.source       = { :git => "local" }
+  s.source       = { :git => "https://github.com/zzd1991/SecondModule.git", :commit => "0e41e99"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Controllers", "Controllers/**/*.{h,m,mm}"
+  s.source_files  = "Controllers/**/*"
 #  s.exclude_files = "Controllers/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
