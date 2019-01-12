@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #
 
 # s.source       = { :git => "local" }
-  s.source       = { :git => "https://github.com/zzd1991/SecondModule.git", :commit => "0e41e99"}
+  s.source       = { :git => "https://github.com/zzd1991/SecondModule.git", :commit => "632bb50"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
